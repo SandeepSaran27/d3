@@ -36,7 +36,7 @@ async function handleGenShortId(req, res){
 async function getAllUrl(req, res){
     const urls = await URL.find({});
     console.log(urls);
-    return res.json({all : urls});
+    return res.json({all : urls[0]});
 }
 
 module.exports = {
