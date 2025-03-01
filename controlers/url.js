@@ -24,7 +24,6 @@ async function handleGenShortId(req, res){
     if(!body)
     {
         //console.log("Error in controler"); 
-        //console.log("Hii bro");
     }
 
     const result = await URL.create({
